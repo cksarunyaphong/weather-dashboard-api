@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather API App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Weather Dashboard</h1>
+    <h2>Search Any City</h2>
+
+    <input
+      type="text"
+      id="cityInput"
+      placeholder="Enter city name"
+    />
+
+    <p>OR</p>
+
+    <select id="citySelect">
+      <option value="">Choose a popular city</option>
+      <option value="Toronto">Toronto</option>
+      <option value="Vancouver">Vancouver</option>
+      <option value="Montreal">Montreal</option>
+      <option value="Calgary">Calgary</option>
+      <option value="Bangkok">Bangkok</option>
+      <option value="Tokyo">Tokyo</option>
+      <option value="London">London</option>
+      <option value="New York">New York</option>
+    </select>
+
+    <button id="weatherBtn">Check Weather</button>
+
+    <section id="weatherResult" class="weather-card">
+      <p>Select a city to see the current weather.</p>
+    </section>
+
+    <p class="footer">Powered by WeatherAPI</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
